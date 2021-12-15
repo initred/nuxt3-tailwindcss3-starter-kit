@@ -1,0 +1,23 @@
+{
+    /* Tailwindcss Setting*/
+    "css.validate": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    /* Volar Setting*/
+    "prettier.enable": false,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+    },
+    "editor.formatOnSave": false,
+    "[vue]": {
+        "editor.defaultFormatter": "johnsoncodehk.volar"
+    },
+    "files.associations": {
+        "*.css": "postcss",
+    },
+}
