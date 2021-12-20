@@ -17,7 +17,7 @@ Thank you for your efforts for open source.
 - ⚡️ [Vite](https://vitejs.dev/) - Instant HMR
 - 🎨 [Tailwindcss](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom user interfaces.
 - ⚒️ [HeadlessUI](https://headlessui.dev/) - A set of completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
-- ✨ Adopting [HeroIcons](https://heroicons.com/), an official service icon provided by Tailwindcss.
+- ✨ [Iconify](https://iconify.design/) - use icons from any icon sets 🔍[Icônes](https://icones.netlify.app/)
 - 🔥 The `<script setup>` syntax
 - 🍍 [State Management via Pinia](https://pinia.esm.dev/)
 - 📥 APIs auto importing - For Composition API, VueUse and custom composables.

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { HandIcon } from '@heroicons/vue/outline'
 import { useUserStore } from '~/stores/user'
 
 const route = useRoute()
@@ -14,7 +13,7 @@ watchEffect(() => {
 <template>
   <div>
     <div class="inline-block animate-bounce">
-      <HandIcon class="w-10 h-10 text-gray-500" aria-hidden="true" />
+      <heroicons-outline-hand class="w-10 h-10 text-gray-500" aria-hidden="true" />
     </div>
     <h3 class="text-xl font-medium">
       Hi,

@@ -11,7 +11,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.13.1",
     "@headlessui/vue": "^1.4.2",
-    "@heroicons/vue": "^1.0.5",
+    "@iconify-json/carbon": "^1.0.12",
     "@pinia/nuxt": "latest",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.4.0",
