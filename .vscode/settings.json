@@ -24,4 +24,14 @@
     "files.associations": {
         "*.css": "postcss",
     },
+    "cSpell.words": [
+        "antfu",
+        "headlessui",
+        "nuxt",
+        "pinia",
+        "tailwindcss",
+        "Unplugin",
+        "vite",
+        "vueuse"
+    ],
 }

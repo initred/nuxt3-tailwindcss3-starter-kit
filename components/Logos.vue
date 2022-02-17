@@ -7,7 +7,7 @@
       <span class="text-green-500 mt-2">Nuxt 3</span>
     </div>
     <div
-      class="text-2xl text-gray-400 mx-4 my-auto transform transla hover:rotate-45 hover:duration-500"
+      class="text-2xl text-gray-400 mx-4 my-auto transform hover:rotate-45 hover:duration-500"
     >
       <heroicons-solid-plus class="w-6 h-6" aria-hidden="true" />
     </div>
