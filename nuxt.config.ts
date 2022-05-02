@@ -1,42 +1,35 @@
-import { defineNuxtConfig } from 'nuxt3'
-import UnpluginComponentsVite from 'unplugin-vue-components/vite'
-import IconsResolver from 'unplugin-icons/resolver'
+import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-  meta: {
-    title: 'Nuxt3 Tailwindcss3 Starter-Kit',
-  },
-  buildModules: [
+  modules: [
     '@vueuse/nuxt',
     '@pinia/nuxt',
-    'unplugin-icons/nuxt',
-  ],
-  components: true,
-  vite: {
-    plugins: [
-      UnpluginComponentsVite({
-        dts: true,
-        resolvers: [
-          IconsResolver({
-            prefix: false,
-          }),
-         ],
-       }),
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    [
+      'unplugin-icons/nuxt',
+      {
+        autoInstall: true,
+        prefix: false,
+      },
     ],
+  ],
+  components: {
+    global: true,
+    dirs: [
+      '~/components',
+      '~/node_modules/@headlessui/vue/dist/components',
+    ],
+  },
+  experimental: {
+    reactivityTransform: true,
+    // viteNode: true,
   },
   vueuse: {
     ssrHandlers: true,
   },
-  build: {
-    transpile: ['@headlessui/vue'],
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
-    },
+  colorMode: {
+    classSuffix: '',
   },
 })

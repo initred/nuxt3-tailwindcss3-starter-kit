@@ -26,6 +26,7 @@ Thank you for your efforts for open source.
 
 ### Nuxt Modules
 - [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs
+- [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
 - [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
 
 ## IDE

@@ -1,8 +1,3 @@
 {
-    "extends": "@antfu",
-    "rules": {
-        "html": {
-            "normal": "never"
-        }
-    }
+    "extends": "@antfu"
 }
