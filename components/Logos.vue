@@ -6,7 +6,7 @@ import HeroiconsSolidPlus from '~icons/heroicons-solid/plus'
   <div class="inline-flex text-2xl cursor-default">
     <div class="flex flex-col">
       <div>
-        <img class="w-16 h-16 inline-block" src="@/nuxt.png">
+        <img class="w-16 h-16 inline-block" src="/nuxt.png">
       </div>
       <span class="text-green-500 mt-2">Nuxt 3</span>
     </div>
@@ -17,7 +17,7 @@ import HeroiconsSolidPlus from '~icons/heroicons-solid/plus'
     </div>
     <div class="flex flex-col">
       <div>
-        <img class="w-16 h-16 inline-block" src="@/tailwindcss.png">
+        <img class="w-16 h-16 inline-block" src="/tailwindcss.png">
       </div>
       <span class="text-sky-500 mt-2">Tailwindcss 3</span>
     </div>
