@@ -19,7 +19,7 @@
     },
     "editor.formatOnSave": false,
     "[vue]": {
-        "editor.defaultFormatter": "johnsoncodehk.volar"
+        "editor.defaultFormatter": "Vue.volar"
     },
     "files.associations": {
         "*.css": "postcss",
