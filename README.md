@@ -31,6 +31,7 @@ Thank you for your efforts for open source.
 
 ## IDE
 - [VS Code](https://code.visualstudio.com/)
+- [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
 - [Volar](https://github.com/johnsoncodehk/volar)
 - [Tailwindcss-Intellisense](https://github.com/tailwindlabs/tailwindcss-intellisense)
 
