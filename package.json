@@ -12,9 +12,6 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.9",
     "@headlessui/vue": "^1.6.7",
-    "@iconify-json/carbon": "^1.1.7",
-    "@iconify-json/heroicons-outline": "^1.1.2",
-    "@iconify-json/heroicons-solid": "^1.1.2",
     "@nuxt/components": "^2.2.1",
     "@nuxtjs/color-mode": "^3.1.4",
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
@@ -28,9 +25,9 @@
     "autoprefixer": "^10.4.8",
     "eslint": "^8.23.0",
     "nuxt": "^3.0.0-rc.9",
+    "nuxt-icon": "^0.1.4",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
-    "typescript": "^4.8.2",
-    "unplugin-icons": "^0.14.8"
+    "typescript": "^4.8.2"
   }
 }

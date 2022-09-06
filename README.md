@@ -17,7 +17,6 @@ Thank you for your efforts for open source.
 - ⚡️ [Vite](https://vitejs.dev/) - Instant HMR
 - 🎨 [Tailwindcss](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom user interfaces.
 - ⚒️ [HeadlessUI](https://headlessui.dev/) - A set of completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
-- ✨ [Iconify](https://iconify.design/) - use icons from any icon sets 🔍[Icônes](https://icones.netlify.app/)
 - 🔥 The `<script setup>` syntax
 - 🍍 [State Management via Pinia](https://pinia.esm.dev/)
 - 📥 APIs auto importing - For Composition API, VueUse and custom composables.
@@ -28,11 +27,13 @@ Thank you for your efforts for open source.
 - [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs
 - [ColorMode](https://github.com/nuxt-community/color-mode-module) - dark and Light mode with auto detection made easy with Nuxt.
 - [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
+- [NuxtIcon](https://github.com/nuxt-modules/icon) - Icon module for Nuxt with 100,000+ ready to use icons from [Iconify](https://iconify.design/).
 
 ## IDE
 - [VS Code](https://code.visualstudio.com/)
 - [Volar](https://github.com/johnsoncodehk/volar)
 - [Tailwindcss-Intellisense](https://github.com/tailwindlabs/tailwindcss-intellisense)
+- [Iconify IntelliSense](https://github.com/antfu/vscode-iconify)
 
 ## Try it now!
 

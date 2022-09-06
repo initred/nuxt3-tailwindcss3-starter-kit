@@ -7,29 +7,23 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    [
-      'unplugin-icons/nuxt',
-      {
-        autoInstall: true,
-        prefix: false,
-      },
-    ],
+    'nuxt-icon'
   ],
   components: {
     global: true,
     dirs: [
       '~/components',
-      '~/node_modules/@headlessui/vue/dist/components',
-    ],
+      '~/node_modules/@headlessui/vue/dist/components'
+    ]
   },
   experimental: {
-    reactivityTransform: true,
+    reactivityTransform: true
     // viteNode: true,
   },
   vueuse: {
-    ssrHandlers: true,
+    ssrHandlers: true
   },
   colorMode: {
-    classSuffix: '',
-  },
+    classSuffix: ''
+  }
 })

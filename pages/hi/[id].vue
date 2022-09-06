@@ -13,7 +13,7 @@ watchEffect(() => {
 <template>
   <div>
     <div class="inline-block animate-bounce">
-      <HeroiconsOutlineHand class="w-10 h-10 text-gray-500" aria-hidden="true" />
+      <Icon name="heroicons-outline:hand" class="w-10 h-10 text-gray-500" />
     </div>
     <h3 class="text-xl font-medium">
       Hi,

@@ -18,6 +18,7 @@
     "editor.formatOnSave": false,
     "cSpell.words": [
         "antfu",
+        "composables",
         "headlessui",
         "heroicons",
         "nuxt",

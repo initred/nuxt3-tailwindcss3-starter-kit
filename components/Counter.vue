@@ -1,7 +1,4 @@
 <script setup lang='ts'>
-import HeroiconsSolidMinus from '~icons/heroicons-solid/minus'
-import HeroiconsSolidPlus from '~icons/heroicons-solid/plus'
-
 const { count, inc, dec } = useCount()
 </script>
 
@@ -11,7 +8,7 @@ const { count, inc, dec } = useCount()
       class="w-6 h-6 p-2 rounded-full flex justify-center items-center bg-emerald-500 text-white"
       @click="dec()"
     >
-      <HeroiconsSolidMinus class="w-5 h-5 text-white" aria-hidden="true" />
+      <Icon name="heroicons-solid:minus" class="w-5 h-5 text-white" />
     </button>
     <div class="mx-4">
       {{ count }}
@@ -20,7 +17,7 @@ const { count, inc, dec } = useCount()
       class="w-6 h-6 p-2 rounded-full flex justify-center items-center bg-emerald-500 text-white"
       @click="inc()"
     >
-      <HeroiconsSolidPlus class="w-5 h-5 text-white" aria-hidden="true" />
+      <Icon name="heroicons-solid:plus" class="w-5 h-5 text-white" />
     </button>
   </div>
 </template>
