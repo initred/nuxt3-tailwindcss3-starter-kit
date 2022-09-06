@@ -7,23 +7,15 @@
     "tailwindCSS.includeLanguages": {
         "plaintext": "html"
     },
-    /* Vetur Disabled Setting */
-    "vetur.validation.template": false,
-    "vetur.validation.script": false,
-    "vetur.validation.style": false,
-    /* Volar Setting */
+   
     "prettier.enable": false,
-    "typescript.tsdk": "node_modules/typescript/lib",
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-    },
-    "editor.formatOnSave": false,
-    "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
+        "source.fixAll.eslint": true
     },
     "files.associations": {
-        "*.css": "postcss",
+        "*.css": "postcss"
     },
+    "editor.formatOnSave": false,
     "cSpell.words": [
         "antfu",
         "headlessui",

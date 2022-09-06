@@ -4,7 +4,7 @@ import HeroiconsOutlineSun from '~icons/heroicons-outline/sun'
 
 const color = useColorMode()
 
-function toggleDark() {
+function toggleDark () {
   color.preference = color.value === 'dark' ? 'light' : 'dark'
 }
 </script>
