@@ -961,6 +961,7 @@ module.exports = {
     'disabled'
   ],
   plugins: [
+    require('@tailwindcss/container-queries'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/line-clamp'),
