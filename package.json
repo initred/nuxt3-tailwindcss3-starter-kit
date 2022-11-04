@@ -23,7 +23,7 @@
     "@tailwindcss/typography": "^0.5.7",
     "@vueuse/nuxt": "^9.3.1",
     "eslint": "^8.26.0",
-    "nuxt": "^3.0.0-rc.12",
+    "nuxt": "^3.0.0-rc.13",
     "nuxt-icon": "^0.1.4",
     "typescript": "^4.8.4"
   }
