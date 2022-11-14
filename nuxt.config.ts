@@ -7,20 +7,22 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    'nuxt-icon'
+    'nuxt-icon',
+    'nuxt-headlessui'
   ],
   components: {
     global: true,
     dirs: [
-      '~/components',
-      '~/node_modules/@headlessui/vue/dist/components'
+      '~/components'
     ]
   },
   experimental: {
     reactivityTransform: true
-    // viteNode: true,
   },
   colorMode: {
     classSuffix: ''
+  },
+  headlessui: {
+    prefix: ''
   }
 })
