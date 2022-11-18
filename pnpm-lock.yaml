@@ -16,11 +16,8 @@ specifiers:
   nuxt: ^3.0.0
   nuxt-headlessui: ^1.0.1
   nuxt-icon: ^0.1.7
-  pinia: ^2.0.23
+  pinia: ^2.0.24
   typescript: ^4.8.4
-
-dependencies:
-  pinia: 2.0.23_typescript@4.8.4
 
 devDependencies:
   '@headlessui/vue': 1.7.4
@@ -38,6 +35,7 @@ devDependencies:
   nuxt: 3.0.0_rmayb2veg2btbq6mbmnyivgasy
   nuxt-headlessui: 1.0.1
   nuxt-icon: 0.1.7
+  pinia: 2.0.24_typescript@4.8.4
   typescript: 4.8.4
 
 packages:
@@ -1033,7 +1031,7 @@ packages:
     resolution: {integrity: sha512-pDyThvbOi9ztSPI9RDJG857Knb/mmUdDrDiLXbtLVQ3/l647jKncdP4TiRLnMlObENJjcFPEwHT7OVPq4VhQMw==}
     dependencies:
       '@nuxt/kit': 3.0.0-rc.12
-      pinia: 2.0.23_typescript@4.8.4
+      pinia: 2.0.24_typescript@4.8.4
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
@@ -1536,6 +1534,7 @@ packages:
 
   /@vue/devtools-api/6.4.5:
     resolution: {integrity: sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==}
+    dev: true
 
   /@vue/reactivity-transform/3.2.45:
     resolution: {integrity: sha512-BHVmzYAvM7vcU5WmuYqXpwaBHjsS8T63jlKGWVtHxAHIoMIlmaMyurUSEs1Zcg46M4AYT5MtB1U274/2aNzjJQ==}
@@ -5345,8 +5344,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /pinia/2.0.23_typescript@4.8.4:
-    resolution: {integrity: sha512-N15hFf4o5STrxpNrib1IEb1GOArvPYf1zPvQVRGOO1G1d74Ak0J0lVyalX/SmrzdT4Q0nlEFjbURsmBmIGUR5Q==}
+  /pinia/2.0.24_typescript@4.8.4:
+    resolution: {integrity: sha512-DDLd4Iphyc+6PYYYbx7jkb6WP9gecgu9bz9huyB5rb7CdJI3DhzYiZI+/Ih8MLewRrP9DSpslF/BgSNrJtZU7A==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -5360,6 +5359,7 @@ packages:
       '@vue/devtools-api': 6.4.5
       typescript: 4.8.4
       vue-demi: 0.13.11
+    dev: true
 
   /pkg-types/0.3.5:
     resolution: {integrity: sha512-VkxCBFVgQhNHYk9subx+HOhZ4jzynH11ah63LZsprTKwPCWG9pfWBlkElWFbvkP9BVR0dP1jS9xPdhaHQNK74Q==}
@@ -6800,6 +6800,7 @@ packages:
     resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
+    dev: true
 
   /ufo/0.8.6:
     resolution: {integrity: sha512-fk6CmUgwKCfX79EzcDQQpSCMxrHstvbLswFChHS0Vump+kFkw7nJBfTZoC1j0bOGoY9I7R3n2DGek5ajbcYnOw==}
@@ -7190,6 +7191,7 @@ packages:
     peerDependenciesMeta:
       '@vue/composition-api':
         optional: true
+    dev: true
 
   /vue-devtools-stub/0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
