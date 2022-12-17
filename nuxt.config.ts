@@ -1,11 +1,8 @@
-import { defineNuxtConfig } from 'nuxt/config'
-
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
     '@pinia/nuxt',
-    '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     'nuxt-icon',
     'nuxt-headlessui'
@@ -18,6 +15,13 @@ export default defineNuxtConfig({
   },
   experimental: {
     reactivityTransform: true
+  },
+  css: ['~/assets/css/tailwind.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
   },
   colorMode: {
     classSuffix: ''
