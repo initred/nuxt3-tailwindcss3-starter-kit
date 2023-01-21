@@ -1,16 +1,16 @@
-export function useCount() {
+export function useCount () {
   const count = useState('count', () => Math.round(Math.random() * 20))
 
-  function inc() {
+  function inc () {
     count.value += 1
   }
-  function dec() {
+  function dec () {
     count.value -= 1
   }
 
   return {
     count,
     inc,
-    dec,
+    dec
   }
 }

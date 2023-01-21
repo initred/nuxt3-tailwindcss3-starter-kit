@@ -35,7 +35,7 @@ watchEffect(() => {
       </p>
     </template>
 
-    <TheCounter />
+    <LayerCounter />
 
     <div>
       <BaseNuxtLink
