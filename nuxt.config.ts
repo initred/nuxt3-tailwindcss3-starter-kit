@@ -7,12 +7,6 @@ export default defineNuxtConfig({
     'nuxt-icon',
     'nuxt-headlessui'
   ],
-  components: {
-    global: true,
-    dirs: [
-      '~/components'
-    ]
-  },
   experimental: {
     reactivityTransform: true
   },
@@ -20,8 +14,8 @@ export default defineNuxtConfig({
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {},
-    },
+      autoprefixer: {}
+    }
   },
   colorMode: {
     classSuffix: ''
