@@ -7,7 +7,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const emit = defineEmits(['update:modelValue'])
-const input = ref<HTMLElement>()
+const input = ref<HTMLElement | null>(null)
 
 function updateModalValue (event: Event) {
   emit('update:modelValue', (event.target as HTMLInputElement).value)
