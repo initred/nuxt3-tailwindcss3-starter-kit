@@ -4,7 +4,9 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
-    "lint": "eslint --ext .ts,.js,.vue ."
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.8",
@@ -16,11 +18,13 @@
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
+    "@vitest/coverage-c8": "^0.28.4",
     "@vueuse/nuxt": "^9.12.0",
     "eslint": "^8.33.0",
     "nuxt": "^3.1.2",
     "nuxt-headlessui": "^1.1.1",
     "nuxt-icon": "^0.2.10",
+    "nuxt-vitest": "^0.6.5",
     "pinia": "^2.0.30",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.5"

@@ -21,6 +21,7 @@
         "composables",
         "headlessui",
         "heroicons",
+        "Iconify",
         "nuxt",
         "nuxtjs",
         "pinia",

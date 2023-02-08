@@ -29,12 +29,14 @@ Thank you for your efforts for open source.
 - [Pinia](https://pinia.esm.dev/) - intuitive, type safe, light and flexible Store for Vue.
 - [NuxtIcon](https://github.com/nuxt-modules/icon) - Icon module for Nuxt with 100,000+ ready to use icons from [Iconify](https://iconify.design/).
 - [NuxtHeadlessUI](https://github.com/P4sca1/nuxt-headlessui) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
+- [NuxtVitest](https://github.com/danielroe/nuxt-vitest) - A vitest environment for testing code that needs a Nuxt runtime environment
 
 ## IDE
-- [VS Code](https://code.visualstudio.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 - [Volar](https://github.com/johnsoncodehk/volar)
 - [Tailwindcss-Intellisense](https://github.com/tailwindlabs/tailwindcss-intellisense)
 - [Iconify IntelliSense](https://github.com/antfu/vscode-iconify)
+- [VSCode Goto Alias](https://github.com/antfu/vscode-goto-alias)
 
 ## Try it now!
 
