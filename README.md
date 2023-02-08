@@ -7,9 +7,7 @@
 </pre>
 
 <p align="center">
-The project was created under the impression of Antfu's <a href="https://github.com/antfu/vitesse-nuxt3" target="_blank">vitesse-nuxt3</a>
-<br>
-Thank you for your efforts for open source.
+The template that starts tailwindcss fastest on nuxt3 without annoying settings
 </p>
 
 ## Features
