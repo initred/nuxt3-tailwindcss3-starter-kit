@@ -9,7 +9,7 @@
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@headlessui/vue": "^1.7.9",
+    "@headlessui/vue": "^1.7.10",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@pinia/nuxt": "^0.4.6",
@@ -19,14 +19,14 @@
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
     "@vitest/coverage-c8": "^0.28.5",
-    "@vueuse/nuxt": "^9.12.0",
+    "@vueuse/nuxt": "^9.13.0",
     "eslint": "^8.34.0",
-    "nuxt": "^3.2.0",
+    "nuxt": "^3.2.2",
     "nuxt-headlessui": "^1.1.1",
-    "nuxt-icon": "^0.2.11",
+    "nuxt-icon": "^0.3.2",
     "nuxt-vitest": "^0.6.6",
     "pinia": "^2.0.30",
-    "tailwindcss": "^3.2.6",
+    "tailwindcss": "^3.2.7",
     "typescript": "^4.9.5"
   }
 }
