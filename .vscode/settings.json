@@ -1,5 +1,5 @@
 {
-    /* Tailwindcss Setting */
+    /* Tailwindcss */
     "css.validate": false,
     "editor.quickSuggestions": {
         "strings": true
@@ -7,7 +7,7 @@
     "tailwindCSS.includeLanguages": {
         "plaintext": "html"
     },
-   
+    /* eslint */
     "prettier.enable": false,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
@@ -22,6 +22,7 @@
         "headlessui",
         "heroicons",
         "Iconify",
+        "nuxi",
         "nuxt",
         "nuxtjs",
         "pinia",

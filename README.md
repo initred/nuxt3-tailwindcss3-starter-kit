@@ -28,6 +28,7 @@ The template that starts tailwindcss fastest on nuxt3 without annoying settings
 - [NuxtIcon](https://github.com/nuxt-modules/icon) - Icon module for Nuxt with 100,000+ ready to use icons from [Iconify](https://iconify.design/).
 - [NuxtHeadlessUI](https://github.com/P4sca1/nuxt-headlessui) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 - [NuxtVitest](https://github.com/danielroe/nuxt-vitest) - A vitest environment for testing code that needs a Nuxt runtime environment
+- [NuxtDevtools](https://github.com/nuxt/devtools) - Nuxt DevTools is a set of visual tools that help you to know your app better.
 
 ## IDE
 - [Visual Studio Code](https://code.visualstudio.com/)

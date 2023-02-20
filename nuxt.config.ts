@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'nuxt-icon',
     'nuxt-headlessui',
-    'nuxt-vitest'
+    'nuxt-vitest',
+    '@nuxt/devtools'
   ],
   experimental: {
     reactivityTransform: true
@@ -23,5 +24,8 @@ export default defineNuxtConfig({
   },
   headlessui: {
     prefix: ''
+  },
+  devtools: {
+    vscode: {}
   }
 })
