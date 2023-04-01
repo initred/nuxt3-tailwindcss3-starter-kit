@@ -10,24 +10,24 @@
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.12",
-    "@nuxt/devtools": "^0.2.5",
+    "@nuxt/devtools": "^0.3.1",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@pinia/nuxt": "^0.4.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/container-queries": "^0.1.0",
+    "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.9",
-    "@vitest/coverage-c8": "^0.29.3",
+    "@vitest/coverage-c8": "^0.29.8",
     "@vueuse/nuxt": "^9.13.0",
-    "eslint": "^8.36.0",
-    "nuxt": "^3.3.1",
+    "eslint": "^8.37.0",
+    "nuxt": "^3.3.2",
     "nuxt-headlessui": "^1.1.1",
     "nuxt-icon": "^0.3.3",
-    "nuxt-vitest": "^0.6.8",
+    "nuxt-vitest": "^0.6.9",
     "pinia": "^2.0.33",
-    "tailwindcss": "^3.2.7",
-    "typescript": "^5.0.2"
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.3"
   }
 }
