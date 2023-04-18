@@ -10,7 +10,8 @@ export default defineNuxtConfig({
     '@nuxt/devtools'
   ],
   experimental: {
-    reactivityTransform: true
+    reactivityTransform: true,
+    renderJsonPayloads: true
   },
   css: ['~/assets/css/tailwind.css'],
   postcss: {
@@ -25,7 +26,5 @@ export default defineNuxtConfig({
   headlessui: {
     prefix: ''
   },
-  devtools: {
-    vscode: {}
-  }
+  devtools: true
 })
