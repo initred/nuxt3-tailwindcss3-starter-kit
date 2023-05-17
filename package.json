@@ -22,7 +22,7 @@
     "@vitest/coverage-c8": "^0.31.0",
     "@vueuse/nuxt": "^10.1.2",
     "eslint": "^8.39.0",
-    "nuxt": "^3.4.3",
+    "nuxt": "^3.5.0",
     "nuxt-headlessui": "^1.1.4",
     "nuxt-icon": "^0.4.0",
     "nuxt-vitest": "^0.6.12",

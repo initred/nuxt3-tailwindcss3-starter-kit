@@ -10,8 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/devtools'
   ],
   experimental: {
-    reactivityTransform: true,
-    renderJsonPayloads: true
+    reactivityTransform: true
   },
   css: ['~/assets/css/tailwind.css'],
   postcss: {
