@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from 'tailwindcss'
+
+export default {
   content: [
     './components/**/*.{js,vue,ts}',
     './composables/**/*.{js,vue,ts}',
@@ -20,4 +21,4 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/container-queries')
   ]
-}
+} satisfies Config
