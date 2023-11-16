@@ -50,5 +50,5 @@ If you prefer to do it manually with the cleaner git history
 ```bash
 npx degit initred/nuxt3-tailwindcss3-starter-kit my-nuxt3-app
 cd my-nuxt3-app
-bun i # If you don't have bun installed, run: npm install -g bun
+pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
