@@ -9,8 +9,8 @@
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.16",
-    "@nuxt/devtools": "^1.0.2",
-    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxt/devtools": "^1.0.4",
+    "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@pinia/nuxt": "^0.5.1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
@@ -19,13 +19,13 @@
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.10",
     "@vueuse/nuxt": "^10.6.1",
-    "eslint": "^8.53.0",
-    "nuxt": "^3.8.1",
+    "eslint": "^8.54.0",
+    "nuxt": "^3.8.2",
     "nuxt-headlessui": "^1.1.4",
-    "nuxt-icon": "^0.6.5",
-    "nuxt-vitest": "^0.11.3",
+    "nuxt-icon": "^0.6.6",
+    "nuxt-vitest": "^0.11.5",
     "pinia": "^2.1.7",
     "tailwindcss": "^3.3.5",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.2"
   }
 }
