@@ -18,14 +18,14 @@
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.10",
-    "@vueuse/nuxt": "^10.7.0",
+    "@vueuse/nuxt": "^10.7.1",
     "eslint": "^8.56.0",
-    "nuxt": "^3.8.2",
-    "nuxt-headlessui": "^1.1.4",
-    "nuxt-icon": "^0.6.7",
+    "nuxt": "^3.9.0",
+    "nuxt-headlessui": "^1.1.5",
+    "nuxt-icon": "^0.6.8",
     "nuxt-vitest": "^0.11.5",
     "pinia": "^2.1.7",
-    "tailwindcss": "^3.3.7",
+    "tailwindcss": "^3.4.0",
     "typescript": "^5.3.3"
   }
 }
